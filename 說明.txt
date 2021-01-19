@@ -1,0 +1,6 @@
+用排程方式每五分鐘檢查一次
+若沒有FF則自動開啟
+C:\Windows\System32\wscript.exe C:\Tools\start.vbs C:\Tools\init.bat
+
+start.vbs 關閉開啟小視窗
+init.bat 檢查是否有FF執行中，若無則開啟
